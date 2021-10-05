@@ -1,0 +1,10 @@
+! https://github.com
+
+! Release events in the news feed of watched and starred repositories.
+github.com##div.news div.release
+
+! Push events in the news feed of watched and starred repositories.
+github.com##div.news div.push
+
+! "Some of your issues appear to be stale" above list of issues.
+github.com##div[data-test-selector=stale_issue_prompt]

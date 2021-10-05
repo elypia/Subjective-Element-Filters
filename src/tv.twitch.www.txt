@@ -1,0 +1,7 @@
+! https://www.twitch.tv/
+
+! Features Twitch streamers on home.
+www.twitch.tv##.front-page-carousel
+
+! "New Prime Loot" icon in navigation menu.
+www.twitch.tv##:xpath(//div[./div[contains(@class, "prime-offers")]/div/div[@data-test-selector]])

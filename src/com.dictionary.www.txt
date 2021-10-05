@@ -1,0 +1,7 @@
+! https://www.dictionary.com
+
+! Hovering "discover more →" beside the content.
+www.dictionary.com##:xpath(//div[./div[text() = "discover more"]])
+
+! Trending words scrolling horizontally under the header.
+www.dictionary.com##:xpath(//div[./div/div[starts-with(@class, "trending-words trending-words-label")]])

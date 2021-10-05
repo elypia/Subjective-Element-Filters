@@ -1,0 +1,4 @@
+! https://hshop.erista.me
+
+! Search results with the specified {SUBCATEGORY}, for example "kiosk-demos" or "jp".
+hshop.erista.me##:xpath(//div[./div/div/a[@class = "green"] = "{SUBCATEGORY}"])

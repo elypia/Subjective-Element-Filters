@@ -1,0 +1,13 @@
+! https://twitter.com/
+
+! "What's happening" panel in the sidebar.
+twitter.com##:xpath(//div[./div/div/section/div/div/div/div/h2])
+
+! "Who to follow" panel in the sidebar.
+twitter.com##:xpath(//div[./aside[@aria-label]])
+
+! "Lists" button in the navigation menu.
+twitter.com##:xpath(//a[@aria-label and contains(@href, "/lists")][./div/div])
+
+! "Add/remove … from Lists" button on more post options.
+twitter.com##:xpath(//a[@href = "/i/lists/add_member"])

@@ -1,0 +1,4 @@
+! https://www.facebook.com
+
+! Log in banner fixed to the bottom if unauthenticated.
+www.facebook.com##:xpath(//div[./div[1]/*/a[starts-with(@href, "/reg/")]])

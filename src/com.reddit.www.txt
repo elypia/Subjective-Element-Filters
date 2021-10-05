@@ -1,0 +1,7 @@
+! https://www.reddit.com/
+
+! Reddit Public Access Network (RPAN) item in feed.
+www.reddit.com##:xpath(//div[./div/div/div/div/a[starts-with(@href, "/rpan/")]/div])
+
+! Reddit Premium box in the sidebar.
+www.reddit.com##:xpath(//div[./*/*/*/*/i[contains(@class, "premium_fill")]])

@@ -1,0 +1,16 @@
+! https://www.linkedin.com
+
+! "Be the first to comment on this" under posts with no comments.
+www.linkedin.com##.social-details-first-prompt-block
+
+! Recommended LinkedIn learning resources.
+www.linkedin.com##:xpath(//div[./div/div/div/div/div/div/a/linkedin-logo[contains(@class, learning)]])
+
+! Request for user feedback on feed quality.
+www.linkedin.com##:xpath(//div[./div/div/div/div/div[contains(@class, "feed-shared-survey")]/header])
+
+! "Add to your feed" panel in the sidebar.
+www.linkedin.com##:xpath(//section[./div/div[@class = "feed-follows-module"]])
+
+! "Today’s top courses" panel in the sidebar.
+www.linkedin.com##:xpath(//section[./div[starts-with(@class, "learning-top-courses")]])

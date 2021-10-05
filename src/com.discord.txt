@@ -1,0 +1,23 @@
+! https://discord.com
+
+! Gift Nitro button in the chat box.
+discord.com##:xpath(//button[./div/div/*/*[starts-with(@d, "M16.886")]])
+
+! Sticker picker icon in the chat box.
+discord.com##:xpath(//button[./div[contains(@class, "stickerButton")]])
+
+! Sticker picker tab in the expression picker.
+discord.com###sticker-picker-tab
+
+! "Active Now" panel on Discord.
+discord.com##div[class^="nowPlayingColumn"]
+
+! "Nitro" button above the list of private message channels.
+discord.com###private-channels a[href$=store]
+
+! "Speak Message" button when viewing more options on a message.
+discord.com###message-actions-tts
+
+! "Download Apps" button under the guild list.
+discord.com##:xpath(//div[./div[starts-with(@class, "guildSeparator")]][last()])
+discord.com##:xpath(//div[./div/div/*/*/div[contains(@data-list-item-id, "app-download-button")]])

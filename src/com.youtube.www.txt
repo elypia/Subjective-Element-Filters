@@ -1,0 +1,13 @@
+! https://www.youtube.com
+
+! Country code next to YouTube logo.
+www.youtube.com##span#country-code
+
+! "Explore" button in the navigation menu.
+www.youtube.com##:xpath(//*[./a[@href = "/feed/explore"]])
+
+! Chip bar in header above home feed.
+www.youtube.com###header ytd-feed-filter-chip-bar-renderer
+
+! Voice search button next to search bar.
+www.youtube.com##div#voice-search-button

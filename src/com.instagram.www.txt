@@ -1,0 +1,4 @@
+! https://www.instagram.com
+
+! "Log In to Instagram" fixed to the bottom if unauthenticated.
+www.instagram.com##:xpath(//div[./*/*/div/a[@href = "/accounts/emailsignup/"]])

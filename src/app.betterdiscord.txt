@@ -1,0 +1,4 @@
+! https://betterdiscord.app
+
+! Plugins made by the specified {AUTHOR}, for example "DevilBro".
+betterdiscord.app##:xpath(//a[./div/div/p/object/a = "{AUTHOR}"])

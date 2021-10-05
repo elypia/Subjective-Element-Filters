@@ -1,0 +1,4 @@
+! https://app.slack.com
+
+! "Enjoy a faster Slack with better notifications" banner.
+app.slack.com##.p-client__banners
