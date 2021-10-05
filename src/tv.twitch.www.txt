@@ -1,6 +1,6 @@
 ! https://www.twitch.tv/
 
-! Features Twitch streamers on home.
+! Featured Twitch streamers on home.
 www.twitch.tv##.front-page-carousel
 
 ! "New Prime Loot" icon in navigation menu.
