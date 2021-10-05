@@ -3,12 +3,12 @@
 
 ## About
 The goals are to:
-* More control of what types of events you see in your feeds.
+* Have more control of what types of events you see in your feeds.
 * Remove junk that's wasting screen space.
 * Reduce distracting elements that are taking your attention.
 
-Unfortunately, a lot of the web likes to serve us content we don't care about.
-This is a list of filters for ad blockers like [uBlock Origin](https://ublockorigin.com/)
+Unfortunately, a lot of the web likes to serve us content we we aren't
+concerned. This is a list of filters for ad blockers like [uBlock Origin](https://ublockorigin.com/)
 that remove unnecessary content on popular websites.
 
 As the title implies, the filters are _subjective_. They are not intended to
@@ -32,7 +32,7 @@ You can read the following article on freeCodeCamp for more info:
 Unwanted Content From Web Pages Using uBlock Origin](https://www.freecodecamp.org/news/how-to-block-content-from-web-pages-using-ublock-origin/)
 
 ## Contributing
-The domains are written in reverse to keep subdomains together. This is helpful
+The domains are written backwards to keep subdomains together. This is helpful
 to avoid scenarios where sites are hard to find because users don't know which
 subdomain to check. For example, to find filters for YouTube one might be
 tempted to look for `youtube.com`, but it's actually under `www.youtube.com`.
@@ -43,7 +43,7 @@ the user where the need to be.
 Filters for the following reasons are out of scope:
 * Ads — In favor of specialized lists included with your ad blocker.
 * Cookie banners — In favor of [I don't care about cookies](https://www.i-dont-care-about-cookies.eu/).
-* Search engine results - In favor of [Highlight or Hide Search Engine Results](https://github.com/pistom/hohser).
+* Search engine results — In favor of [Highlight or Hide Search Engine Results](https://github.com/pistom/hohser).
 
 [matrix-community]: https://matrix.to/#/!bVaYOBVQxZkGOMpzkc:matrix.org "Matrix Invite"
 [Matrix]: https://img.shields.io/matrix/elypia:matrix.org?logo=matrix "Matrix Shield"
